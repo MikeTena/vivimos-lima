@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivimos Lima - Nosotros</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center position-relative overflow-hidden" style="min-height: 250px;">
+
+        <img
+            src="img/banner.webp"
+            class="img-fluid w-100 position-absolute top-50 start-50 translate-middle opacity-50"
+            alt="Banner de turismo en Lima"
+            style="min-width: 100%; min-height: 100%; object-fit: cover;"
+        >
+
+        <div class="position-relative py-5" style="z-index: 2;">
+            <h1 class="display-4 fw-bold">Vivimos Lima</h1>
+            <p class="fs-5">Descubre la historia, la cultura y los sabores de la Ciudad de los Reyes</p>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menuNosotros"
+                aria-controls="menuNosotros"
+                aria-expanded="false"
+                aria-label="Abrir o cerrar navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="menuNosotros">
+                <ul class="navbar-nav w-100 justify-content-around">
+                    <li class="nav-item"><a class="nav-link fs-5 py-3 px-4" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active fs-5 py-3 px-4" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link fs-5 py-3 px-4" href="puntos_interes.html">Puntos de Interés</a></li>
+                    <li class="nav-item"><a class="nav-link fs-5 py-3 px-4" href="gastronomia.html">Gastronomía</a></li>
+                    <li class="nav-item"><a class="nav-link fs-5 py-3 px-4" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <section class="bloque-horizontal bloque-azul mb-4">
+            <img src="img/lugares/plaza%20mayor.webp" class="bloque-imagen" alt="Vista de la Plaza Mayor de Lima">
+            <div class="bloque-contenido">
+                <h2>Historia de Lima</h2>
+                <p>
+                    El valle del río Rímac estuvo habitado por sociedades andinas mucho antes de la llegada de los
+                    españoles. En este territorio se desarrollaron comunidades que aprovecharon sus valles y canales de
+                    irrigación, entre ellas las culturas Lima e Ychsma. Sus huacas y caminos forman parte del legado
+                    histórico que todavía se reconoce en distintos puntos de la ciudad.
+                </p>
+                <p>
+                    El 18 de enero de 1535, Francisco Pizarro fundó la Ciudad de los Reyes en el lugar que hoy ocupa el
+                    Centro Histórico. Durante el periodo virreinal, Lima se convirtió en un importante centro político,
+                    religioso y comercial de Sudamérica. Tras la proclamación de la independencia del Perú en 1821, la
+                    ciudad continuó como capital y creció hasta convertirse en la metrópoli diversa que conocemos hoy.
+                </p>
+            </div>
+        </section>
+        <section class="bloque-horizontal bloque-rojo mb-4">
+            <img src="img/lugares/mision.jpg" class="bloque-imagen" alt="Imagen representativa de la misión de Vivimos Lima">
+            <div class="bloque-contenido">
+                <h2>Misión</h2>
+                <p>
+                    Acercar a visitantes y residentes a los atractivos históricos, culturales y gastronómicos de Lima
+                    mediante información clara que ayude a planificar recorridos responsables y enriquecedores.
+                </p>
+            </div>
+        </section>
+        <section class="bloque-horizontal bloque-oro mb-4">
+            <img src="img/lugares/vision.jpg" class="bloque-imagen" alt="Imagen representativa de la visión de Vivimos Lima">
+            <div class="bloque-contenido">
+                <h2>Visión</h2>
+                <p>
+                    Ser un portal turístico de referencia que motive a conocer y valorar el patrimonio de Lima, sus
+                    tradiciones y la diversidad de las comunidades que dan vida a la capital.
+                </p>
+            </div>
+        </section>
+    </main>
+    <section id="servicios-formularios" class="servicios-formularios bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="mb-4">Organiza tu experiencia en Lima</h2>
+            <section class="formulario-bloque formulario-unificado">
+                <h3>Hospedaje, actividades y deportes</h3>
+                <p>Completa una sola solicitud para organizar alojamiento o elegir una actividad durante tu visita a Lima.</p>
+                <form action="#" method="post" class="row g-3">
+                    <div class="col-md-6">
+                        <label for="solicitudNombre" class="form-label">Nombre y apellido</label>
+                        <input type="text" class="form-control" id="solicitudNombre" name="solicitudNombre" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="solicitudCorreo" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="solicitudCorreo" name="solicitudCorreo" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="tipoExperiencia" class="form-label">Tipo de experiencia</label>
+                        <select class="form-select" id="tipoExperiencia" name="tipoExperiencia" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="hospedaje">Hospedaje</option>
+                            <option value="barranco">Diversión y cultura en Barranco</option>
+                            <option value="ciclismo">Ciclismo por el malecón</option>
+                            <option value="parapente">Parapente y aventura</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="preferenciaHospedaje" class="form-label">Preferencia de hospedaje (opcional)</label>
+                        <select class="form-select" id="preferenciaHospedaje" name="preferenciaHospedaje">
+                            <option value="">No aplica o aún no lo sé</option>
+                            <option value="hotel">Hotel</option>
+                            <option value="hostal">Hostal</option>
+                            <option value="familiar">Alojamiento familiar</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="fechaInicioExperiencia" class="form-label">Fecha de llegada o actividad</label>
+                        <input type="date" class="form-control" id="fechaInicioExperiencia" name="fechaInicioExperiencia" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="fechaFinExperiencia" class="form-label">Fecha de salida (opcional)</label>
+                        <input type="date" class="form-control" id="fechaFinExperiencia" name="fechaFinExperiencia">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="participantesExperiencia" class="form-label">Número de participantes</label>
+                        <select class="form-select" id="participantesExperiencia" name="participantesExperiencia" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="1">1 persona</option>
+                            <option value="2-4">2 a 4 personas</option>
+                            <option value="5+">5 o más personas</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-light btn-lg w-100">Enviar solicitud</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+            <p class="mb-0">© 2026 Vivimos Lima. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
