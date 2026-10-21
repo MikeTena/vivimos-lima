@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivimos Lima - Gastronomía</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center position-relative overflow-hidden" style="min-height: 250px;">
+
+        <img
+            src="img/banner.webp"
+            class="img-fluid w-100 position-absolute top-50 start-50 translate-middle opacity-50"
+            alt="Banner de turismo en Lima"
+            style="min-width: 100%; min-height: 100%; object-fit: cover;"
+        >
+
+        <div class="position-relative py-5" style="z-index: 2;">
+            <h1 class="display-4 fw-bold">Vivimos Lima</h1>
+            <p class="fs-5">Descubre la historia, la cultura y los sabores de la Ciudad de los Reyes</p>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menuGastronomia"
+                aria-controls="menuGastronomia"
+                aria-expanded="false"
+                aria-label="Abrir o cerrar navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="menuGastronomia">
+                <ul class="navbar-nav w-100 justify-content-around">
+                    <li class="nav-item"><a class="nav-link fs-5 py-3 px-4" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link fs-5 py-3 px-4" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link fs-5 py-3 px-4" href="puntos_interes.html">Puntos de Interés</a></li>
+                    <li class="nav-item"><a class="nav-link active fs-5 py-3 px-4" href="gastronomia.html">Gastronomía</a></li>
+                    <li class="nav-item"><a class="nav-link fs-5 py-3 px-4" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid px-4 py-4">
+        <section class="galeria-gastronomica" aria-label="Carruseles de sabores limeños">
+            <div class="row g-4 justify-content-center">
+                <div class="col-12">
+                    <div class="galeria-carousel galeria-carousel-comida">
+                        <div id="carouselComidas" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000" aria-label="Carrusel de comidas peruanas">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row g-0 galeria-slide">
+                                        <div class="galeria-foto">
+                                            <img src="img/comida/Ceviche.webp" class="d-block w-100" alt="Cebiche peruano">
+                                        </div>
+                                        <div class="galeria-info">
+                                            <h3>Cebiche limeño</h3>
+                                            <p>
+                                                El plato emblemático de la costa peruana combina pescado fresco, limón, ají y cebolla. Suele
+                                                servirse con camote y choclo, y cada cebichería le da su propio equilibrio de sabor.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row g-0 galeria-slide">
+                                        <div class="galeria-foto">
+                                            <img src="img/comida/lomosalt.jpeg" class="d-block w-100" alt="Lomo saltado peruano">
+                                        </div>
+                                        <div class="galeria-info">
+                                            <h3>Lomo saltado</h3>
+                                            <p>
+                                                Trozos de carne se saltean a fuego alto con cebolla, tomate y sillao. Se sirve con papas fritas y
+                                                arroz, en una mezcla de sabores criollos y de influencia china.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row g-0 galeria-slide">
+                                        <div class="galeria-foto">
+                                            <img src="img/comida/anticucho.jpg" class="d-block w-100" alt="Anticuchos a la parrilla">
+                                        </div>
+                                        <div class="galeria-info">
+                                            <h3>Anticuchos</h3>
+                                            <p>
+                                                Brochetas sazonadas con ají panca y asadas a la parrilla. En Lima suelen acompañarse con papa,
+                                                choclo y salsas, y son protagonistas de puestos callejeros y peñas criollas.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row g-0 galeria-slide">
+                                        <div class="galeria-foto">
+                                            <img src="img/comida/arrpollo.jpg" class="d-block w-100" alt="Arroz con pollo peruano">
+                                        </div>
+                                        <div class="galeria-info">
+                                            <h3>Arroz con pollo</h3>
+                                            <p>
+                                                El arroz toma su color y aroma del culantro, y se cocina junto con piezas de pollo y verduras. Es un
+                                                plato casero muy querido que suele servirse con salsa criolla.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row g-0 galeria-slide">
+                                        <div class="galeria-foto">
+                                            <img src="img/comida/huancaina.png" class="d-block w-100" alt="Papa a la huancaína">
+                                        </div>
+                                        <div class="galeria-info">
+                                            <h3>Papa a la huancaína</h3>
+                                            <p>
+                                                Papas cocidas cubiertas con una salsa cremosa de queso, leche y ají amarillo. Se sirve fría como
+                                                entrada y destaca por su sabor suave con un toque de picante.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev"
+                                    type="button"
+                                    data-bs-target="#carouselComidas"
+                                    data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next"
+                                    type="button"
+                                    data-bs-target="#carouselComidas"
+                                    data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="galeria-carousel galeria-carousel-bebidas">
+                        <div id="carouselBebidas" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4500" aria-label="Carrusel de bebidas peruanas">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row g-0 galeria-slide">
+                                        <div class="galeria-foto">
+                                            <img src="img/bebidas/chichamorada.jpg" class="d-block w-100" alt="Chicha morada">
+                                        </div>
+                                        <div class="galeria-info">
+                                            <h3>Chicha morada</h3>
+                                            <p>
+                                                Refresco tradicional preparado con maíz morado, piña y especias. Su color intenso y su sabor dulce
+                                                con notas cítricas la convierten en un acompañamiento popular para la comida criolla.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row g-0 galeria-slide">
+                                        <div class="galeria-foto">
+                                            <img src="img/bebidas/maracuyarefresco.jpg" class="d-block w-100" alt="Refresco de maracuyá">
+                                        </div>
+                                        <div class="galeria-info">
+                                            <h3>Refresco de maracuyá</h3>
+                                            <p>
+                                                Una bebida fría, aromática y ligeramente ácida hecha con pulpa de maracuyá. Se disfruta en
+                                                restaurantes y hogares, especialmente junto a platos abundantes.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row g-0 galeria-slide">
+                                        <div class="galeria-foto">
+                                            <img src="img/bebidas/piscosour.jpg" class="d-block w-100" alt="Pisco sour">
+                                        </div>
+                                        <div class="galeria-info">
+                                            <h3>Pisco sour</h3>
+                                            <p>
+                                                Cóctel peruano preparado con pisco, limón, jarabe y clara de huevo. Tiene una espuma característica
+                                                y se ofrece únicamente a personas adultas.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev"
+                                    type="button"
+                                    data-bs-target="#carouselBebidas"
+                                    data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next"
+                                    type="button"
+                                    data-bs-target="#carouselBebidas"
+                                    data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="galeria-carousel galeria-carousel-postres">
+                        <div id="carouselPostres" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000" aria-label="Carrusel de postres limeños">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row g-0 galeria-slide">
+                                        <div class="galeria-foto">
+                                            <img src="img/postres/mazamorramorada.jpg" class="d-block w-100" alt="Mazamorra morada">
+                                        </div>
+                                        <div class="galeria-info">
+                                            <h3>Mazamorra morada</h3>
+                                            <p>
+                                                Postre espeso preparado con maíz morado, frutas y especias como canela y clavo. Se disfruta tibio o
+                                                frío y forma parte de muchas celebraciones familiares limeñas.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row g-0 galeria-slide">
+                                        <div class="galeria-foto">
+                                            <img src="img/postres/picarones.webp" class="d-block w-100" alt="Picarones con miel">
+                                        </div>
+                                        <div class="galeria-info">
+                                            <h3>Picarones</h3>
+                                            <p>
+                                                Rosquillas fritas elaboradas con zapallo y camote, crujientes por fuera y suaves por dentro. Se
+                                                sirven calientes con miel de chancaca.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row g-0 galeria-slide">
+                                        <div class="galeria-foto">
+                                            <img src="img/postres/arrozconleche.avif" class="d-block w-100" alt="Arroz con leche">
+                                        </div>
+                                        <div class="galeria-info">
+                                            <h3>Arroz con leche</h3>
+                                            <p>
+                                                Postre cremoso de arroz cocido lentamente con leche, azúcar y canela. En Lima se acompaña a menudo
+                                                con mazamorra morada en el tradicional combinado.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev"
+                                    type="button"
+                                    data-bs-target="#carouselPostres"
+                                    data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next"
+                                    type="button"
+                                    data-bs-target="#carouselPostres"
+                                    data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section id="servicios-formularios" class="servicios-formularios bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="mb-4">Organiza tu experiencia en Lima</h2>
+            <section class="formulario-bloque formulario-unificado">
+                <h3>Hospedaje, actividades y deportes</h3>
+                <p>Completa una sola solicitud para organizar alojamiento o elegir una actividad durante tu visita a Lima.</p>
+                <form action="#" method="post" class="row g-3">
+                    <div class="col-md-6">
+                        <label for="solicitudNombre" class="form-label">Nombre y apellido</label>
+                        <input type="text" class="form-control" id="solicitudNombre" name="solicitudNombre" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="solicitudCorreo" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="solicitudCorreo" name="solicitudCorreo" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="tipoExperiencia" class="form-label">Tipo de experiencia</label>
+                        <select class="form-select" id="tipoExperiencia" name="tipoExperiencia" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="hospedaje">Hospedaje</option>
+                            <option value="barranco">Diversión y cultura en Barranco</option>
+                            <option value="ciclismo">Ciclismo por el malecón</option>
+                            <option value="parapente">Parapente y aventura</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="preferenciaHospedaje" class="form-label">Preferencia de hospedaje (opcional)</label>
+                        <select class="form-select" id="preferenciaHospedaje" name="preferenciaHospedaje">
+                            <option value="">No aplica o aún no lo sé</option>
+                            <option value="hotel">Hotel</option>
+                            <option value="hostal">Hostal</option>
+                            <option value="familiar">Alojamiento familiar</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="fechaInicioExperiencia" class="form-label">Fecha de llegada o actividad</label>
+                        <input type="date" class="form-control" id="fechaInicioExperiencia" name="fechaInicioExperiencia" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="fechaFinExperiencia" class="form-label">Fecha de salida (opcional)</label>
+                        <input type="date" class="form-control" id="fechaFinExperiencia" name="fechaFinExperiencia">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="participantesExperiencia" class="form-label">Número de participantes</label>
+                        <select class="form-select" id="participantesExperiencia" name="participantesExperiencia" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="1">1 persona</option>
+                            <option value="2-4">2 a 4 personas</option>
+                            <option value="5+">5 o más personas</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-light btn-lg w-100">Enviar solicitud</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+            <p class="mb-0">© 2026 Vivimos Lima. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
